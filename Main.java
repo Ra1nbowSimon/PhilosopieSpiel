@@ -93,7 +93,7 @@ public class Main {
 
 			}
 
-			if (numF <= maxfaul && numU <= maxunehrlich && numA <= maxaggressiv && numReich*2 > numArm) {
+			if (numF <= maxfaul && numU <= maxunehrlich && numA <= maxaggressiv && numReich*2 >= numArm) {
 				solved = true;
 				
 				Collections.sort(which);
